@@ -1,0 +1,884 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+ /* Font Definitions */
+ @font-face
+	{font-family:Helvetica;
+	panose-1:2 11 5 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Courier;
+	panose-1:2 7 4 9 2 2 5 2 4 4;}
+@font-face
+	{font-family:"Tms Rmn";
+	panose-1:2 2 6 3 4 5 5 2 3 4;}
+@font-face
+	{font-family:Helv;
+	panose-1:2 11 6 4 2 2 2 3 2 4;}
+@font-face
+	{font-family:"New York";
+	panose-1:2 4 5 3 6 5 6 2 3 4;}
+@font-face
+	{font-family:System;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"MS Mincho";
+	panose-1:2 2 6 9 4 2 5 8 3 4;}
+@font-face
+	{font-family:Batang;
+	panose-1:2 3 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:PMingLiU;
+	panose-1:2 1 6 1 0 1 1 1 1 1;}
+@font-face
+	{font-family:"MS Gothic";
+	panose-1:2 11 6 9 7 2 5 8 2 4;}
+@font-face
+	{font-family:Dotum;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:SimHei;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:MingLiU;
+	panose-1:2 1 6 9 0 1 1 1 1 1;}
+@font-face
+	{font-family:Mincho;
+	panose-1:2 2 6 9 4 3 5 8 3 5;}
+@font-face
+	{font-family:Gulim;
+	panose-1:2 11 6 0 0 1 1 1 1 1;}
+@font-face
+	{font-family:Century;
+	panose-1:2 4 6 4 5 5 5 2 3 4;}
+@font-face
+	{font-family:"Angsana New";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Cordia New";
+	panose-1:2 11 3 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Mangal;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Latha;
+	panose-1:2 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sylfaen;
+	panose-1:1 10 5 2 5 3 6 3 3 3;}
+@font-face
+	{font-family:Vrinda;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Raavi;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Shruti;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Sendnya;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Gautami;
+	panose-1:2 0 5 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tunga;
+	panose-1:0 0 4 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Estrangelo Edessa";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;}
+h1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.4pt;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:18.0pt;
+	font-family:"Times New Roman",serif;}
+h2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:1.0pt;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:"Tahoma",sans-serif;
+	font-weight:normal;}
+h3
+	{margin-top:.5pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:2.0pt;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;
+	font-weight:normal;}
+h4
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:5.35pt;
+	margin-bottom:.0001pt;
+	text-align:center;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:26.75pt;
+	margin-bottom:.0001pt;
+	text-indent:-.25in;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.TableParagraph, li.TableParagraph, div.TableParagraph
+	{mso-style-name:"Table Paragraph";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:"Tahoma",sans-serif;}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+span.msoDel
+	{mso-style-name:"";
+	text-decoration:line-through;
+	color:red;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{text-autospace:none;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 46.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 46.0pt 14.0pt 51.0pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 46.0pt 14.0pt 51.0pt;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 46.0pt 14.0pt 51.0pt;}
+div.WordSection4
+	{page:WordSection4;}
+@page WordSection5
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection5
+	{page:WordSection5;}
+@page WordSection6
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection6
+	{page:WordSection6;}
+@page WordSection7
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection7
+	{page:WordSection7;}
+@page WordSection8
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection8
+	{page:WordSection8;}
+@page WordSection9
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection9
+	{page:WordSection9;}
+@page WordSection10
+	{size:595.5pt 842.0pt;
+	margin:92.0pt 38.0pt 14.0pt 57.0pt;}
+div.WordSection10
+	{page:WordSection10;}
+@page WordSection11
+	{size:595.5pt 842.0pt;
+	margin:92.0pt 44.0pt 14.0pt 55.0pt;}
+div.WordSection11
+	{page:WordSection11;}
+@page WordSection12
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 55.0pt;}
+div.WordSection12
+	{page:WordSection12;}
+@page WordSection13
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 55.0pt;}
+div.WordSection13
+	{page:WordSection13;}
+@page WordSection14
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 55.0pt;}
+div.WordSection14
+	{page:WordSection14;}
+@page WordSection15
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 55.0pt;}
+div.WordSection15
+	{page:WordSection15;}
+@page WordSection16
+	{size:595.5pt 842.0pt;
+	margin:92.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection16
+	{page:WordSection16;}
+@page WordSection17
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection17
+	{page:WordSection17;}
+@page WordSection18
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection18
+	{page:WordSection18;}
+@page WordSection19
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection19
+	{page:WordSection19;}
+@page WordSection20
+	{size:595.5pt 842.0pt;
+	margin:92.0pt 45.0pt 14.0pt 53.0pt;}
+div.WordSection20
+	{page:WordSection20;}
+@page WordSection21
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 53.0pt;}
+div.WordSection21
+	{page:WordSection21;}
+@page WordSection22
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 53.0pt;}
+div.WordSection22
+	{page:WordSection22;}
+@page WordSection23
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 53.0pt;}
+div.WordSection23
+	{page:WordSection23;}
+@page WordSection24
+	{size:595.5pt 842.0pt;
+	margin:103.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection24
+	{page:WordSection24;}
+@page WordSection25
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection25
+	{page:WordSection25;}
+@page WordSection26
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection26
+	{page:WordSection26;}
+@page WordSection27
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection27
+	{page:WordSection27;}
+@page WordSection28
+	{size:595.5pt 842.0pt;
+	margin:103.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection28
+	{page:WordSection28;}
+@page WordSection29
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection29
+	{page:WordSection29;}
+@page WordSection30
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection30
+	{page:WordSection30;}
+@page WordSection31
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection31
+	{page:WordSection31;}
+@page WordSection32
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection32
+	{page:WordSection32;}
+@page WordSection33
+	{size:595.5pt 842.0pt;
+	margin:103.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection33
+	{page:WordSection33;}
+@page WordSection34
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection34
+	{page:WordSection34;}
+@page WordSection35
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection35
+	{page:WordSection35;}
+@page WordSection36
+	{size:595.5pt 842.0pt;
+	margin:103.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection36
+	{page:WordSection36;}
+@page WordSection37
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection37
+	{page:WordSection37;}
+@page WordSection38
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection38
+	{page:WordSection38;}
+@page WordSection39
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection39
+	{page:WordSection39;}
+@page WordSection40
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection40
+	{page:WordSection40;}
+@page WordSection41
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection41
+	{page:WordSection41;}
+@page WordSection42
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection42
+	{page:WordSection42;}
+@page WordSection43
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection43
+	{page:WordSection43;}
+@page WordSection44
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection44
+	{page:WordSection44;}
+@page WordSection45
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection45
+	{page:WordSection45;}
+@page WordSection46
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 38.0pt 14.0pt 57.0pt;}
+div.WordSection46
+	{page:WordSection46;}
+@page WordSection47
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection47
+	{page:WordSection47;}
+@page WordSection48
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection48
+	{page:WordSection48;}
+@page WordSection49
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection49
+	{page:WordSection49;}
+@page WordSection50
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 38.0pt 14.0pt 57.0pt;}
+div.WordSection50
+	{page:WordSection50;}
+@page WordSection51
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 38.0pt 14.0pt 57.0pt;}
+div.WordSection51
+	{page:WordSection51;}
+@page WordSection52
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection52
+	{page:WordSection52;}
+@page WordSection53
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection53
+	{page:WordSection53;}
+@page WordSection54
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection54
+	{page:WordSection54;}
+@page WordSection55
+	{size:595.5pt 842.0pt;
+	margin:80.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection55
+	{page:WordSection55;}
+@page WordSection56
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection56
+	{page:WordSection56;}
+@page WordSection57
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection57
+	{page:WordSection57;}
+@page WordSection58
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection58
+	{page:WordSection58;}
+@page WordSection59
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection59
+	{page:WordSection59;}
+@page WordSection60
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection60
+	{page:WordSection60;}
+@page WordSection61
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection61
+	{page:WordSection61;}
+@page WordSection62
+	{size:595.5pt 842.0pt;
+	margin:97.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection62
+	{page:WordSection62;}
+@page WordSection63
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection63
+	{page:WordSection63;}
+@page WordSection64
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection64
+	{page:WordSection64;}
+@page WordSection65
+	{size:595.5pt 842.0pt;
+	margin:77.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection65
+	{page:WordSection65;}
+@page WordSection66
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection66
+	{page:WordSection66;}
+@page WordSection67
+	{size:595.5pt 842.0pt;
+	margin:77.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection67
+	{page:WordSection67;}
+@page WordSection68
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection68
+	{page:WordSection68;}
+@page WordSection69
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection69
+	{page:WordSection69;}
+@page WordSection70
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection70
+	{page:WordSection70;}
+@page WordSection71
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection71
+	{page:WordSection71;}
+@page WordSection72
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 43.0pt 14.0pt .75in;}
+div.WordSection72
+	{page:WordSection72;}
+@page WordSection73
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection73
+	{page:WordSection73;}
+@page WordSection74
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection74
+	{page:WordSection74;}
+@page WordSection75
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection75
+	{page:WordSection75;}
+@page WordSection76
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection76
+	{page:WordSection76;}
+@page WordSection77
+	{size:595.5pt 842.0pt;
+	margin:76.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection77
+	{page:WordSection77;}
+@page WordSection78
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection78
+	{page:WordSection78;}
+@page WordSection79
+	{size:595.5pt 842.0pt;
+	margin:76.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection79
+	{page:WordSection79;}
+@page WordSection80
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection80
+	{page:WordSection80;}
+@page WordSection81
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection81
+	{page:WordSection81;}
+@page WordSection82
+	{size:595.5pt 842.0pt;
+	margin:76.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection82
+	{page:WordSection82;}
+@page WordSection83
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection83
+	{page:WordSection83;}
+@page WordSection84
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection84
+	{page:WordSection84;}
+@page WordSection85
+	{size:595.5pt 842.0pt;
+	margin:76.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection85
+	{page:WordSection85;}
+@page WordSection86
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection86
+	{page:WordSection86;}
+@page WordSection87
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection87
+	{page:WordSection87;}
+@page WordSection88
+	{size:595.5pt 842.0pt;
+	margin:76.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection88
+	{page:WordSection88;}
+@page WordSection89
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection89
+	{page:WordSection89;}
+@page WordSection90
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection90
+	{page:WordSection90;}
+@page WordSection91
+	{size:595.5pt 842.0pt;
+	margin:87.0pt 45.0pt 14.0pt 55.0pt;}
+div.WordSection91
+	{page:WordSection91;}
+@page WordSection92
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 55.0pt;}
+div.WordSection92
+	{page:WordSection92;}
+@page WordSection93
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 55.0pt;}
+div.WordSection93
+	{page:WordSection93;}
+@page WordSection94
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 55.0pt;}
+div.WordSection94
+	{page:WordSection94;}
+@page WordSection95
+	{size:595.5pt 842.0pt;
+	margin:114.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection95
+	{page:WordSection95;}
+@page WordSection96
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection96
+	{page:WordSection96;}
+@page WordSection97
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection97
+	{page:WordSection97;}
+@page WordSection98
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection98
+	{page:WordSection98;}
+@page WordSection99
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection99
+	{page:WordSection99;}
+@page WordSection100
+	{size:595.5pt 842.0pt;
+	margin:92.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection100
+	{page:WordSection100;}
+@page WordSection101
+	{size:595.5pt 842.0pt;
+	margin:92.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection101
+	{page:WordSection101;}
+@page WordSection102
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection102
+	{page:WordSection102;}
+@page WordSection103
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection103
+	{page:WordSection103;}
+@page WordSection104
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection104
+	{page:WordSection104;}
+@page WordSection105
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection105
+	{page:WordSection105;}
+@page WordSection106
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection106
+	{page:WordSection106;}
+@page WordSection107
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection107
+	{page:WordSection107;}
+@page WordSection108
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection108
+	{page:WordSection108;}
+@page WordSection109
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection109
+	{page:WordSection109;}
+@page WordSection110
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 78.0pt 14.0pt 57.0pt;}
+div.WordSection110
+	{page:WordSection110;}
+@page WordSection111
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 78.0pt 14.0pt 57.0pt;}
+div.WordSection111
+	{page:WordSection111;}
+@page WordSection112
+	{size:595.5pt 842.0pt;
+	margin:80.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection112
+	{page:WordSection112;}
+@page WordSection113
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection113
+	{page:WordSection113;}
+@page WordSection114
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection114
+	{page:WordSection114;}
+@page WordSection115
+	{size:595.5pt 842.0pt;
+	margin:80.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection115
+	{page:WordSection115;}
+@page WordSection116
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection116
+	{page:WordSection116;}
+@page WordSection117
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection117
+	{page:WordSection117;}
+@page WordSection118
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection118
+	{page:WordSection118;}
+@page WordSection119
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection119
+	{page:WordSection119;}
+@page WordSection120
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection120
+	{page:WordSection120;}
+@page WordSection121
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection121
+	{page:WordSection121;}
+@page WordSection122
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection122
+	{page:WordSection122;}
+@page WordSection123
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection123
+	{page:WordSection123;}
+@page WordSection124
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection124
+	{page:WordSection124;}
+@page WordSection125
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection125
+	{page:WordSection125;}
+@page WordSection126
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection126
+	{page:WordSection126;}
+@page WordSection127
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection127
+	{page:WordSection127;}
+@page WordSection128
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection128
+	{page:WordSection128;}
+@page WordSection129
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 44.0pt 14.0pt 57.0pt;}
+div.WordSection129
+	{page:WordSection129;}
+@page WordSection130
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection130
+	{page:WordSection130;}
+@page WordSection131
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection131
+	{page:WordSection131;}
+@page WordSection132
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection132
+	{page:WordSection132;}
+@page WordSection133
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection133
+	{page:WordSection133;}
+@page WordSection134
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 40.0pt 14.0pt 57.0pt;}
+div.WordSection134
+	{page:WordSection134;}
+@page WordSection135
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection135
+	{page:WordSection135;}
+@page WordSection136
+	{size:595.5pt 842.0pt;
+	margin:49.0pt 45.0pt 14.0pt 57.0pt;}
+div.WordSection136
+	{page:WordSection136;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
