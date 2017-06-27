@@ -12,7 +12,10 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+        $logo = 'dist/img/openlaw-dark.png';
+        $title = 'SISTEM INFORMASI FIRMA HUKUM';
+        $subtitle = 'LEGAL TECHNOLOGY';
+    return view('welcome')->withLogo($logo)->withTitle($title)->withSubtitle($subtitle);
 });
 
 Auth::routes();

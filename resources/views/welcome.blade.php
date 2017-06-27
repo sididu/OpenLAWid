@@ -92,10 +92,10 @@
             @endif
 
             <div class="content">
-            <a href='home' ><img class="pull-right" src="dist/img/openlaw-dark.png" width="285"></a>
+            <a href='home' ><img class="pull-right" src="{{ $logo }}" width="285"></a>
                 {{-- <h1>el-<strong>PID</strong>SUS<br> --}}
-                <h3>SISTEM INFORMASI FIRMA HUKUM <br>        
-                <small>LEGAL TECHNOLOGY</small></h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                <h3>{{$title}} <br>        
+                <small>{{$subtitle}}</small></h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--===================================================-->
             @section('content')
 
