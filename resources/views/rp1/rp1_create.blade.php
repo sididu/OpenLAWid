@@ -1,6 +1,6 @@
 @extends('layouts.penyidikan_template')
 
-@section('title', 'Dir.Dik')
+@section('title', 'Legal IT')
 
 @section('stylesheet')
 
