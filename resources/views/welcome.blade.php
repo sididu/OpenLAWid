@@ -1,30 +1,26 @@
 <!doctype html>
-<html lang="{{ app()->getLocale() }}">
+<html lang="{{ config('app.locale') }}">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Legal IT</title>
+        <title>el-PIDSUS</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="{{asset('css/font-awesome.css')}}" type="text/css">
+
+
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="{{ asset('fonts/raleway/raleway-webfont.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap-theme.min.css') }}">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="{{ asset('css/ionicons.min.css') }}">
 
         <!-- Styles -->
-        <!-- Bootstrap 3.3.6 -->
-        <link rel="stylesheet" href="vendor/adminlte/bootstrap/css/bootstrap.min.css">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
-        <!-- Ionicons -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-        <!-- Theme style -->
-        <link rel="stylesheet" href="vendor/adminlte/dist/css/AdminLTE.min.css">
-
-        <!-- DataTables -->
-        <link rel="stylesheet" href="//cdn.datatables.net/v/bs/dt-1.10.13/datatables.min.css">
-
-        <link rel="stylesheet"
-        href="vendor/adminlte/dist/css/skins/skin-green-light.min.css ">
         <style>
             html, body {
                 background-color: #fff;
@@ -36,7 +32,7 @@
             }
 
             .full-height {
-                height: 100vh;
+                height: 95vh;
             }
 
             .flex-center {
@@ -57,25 +53,39 @@
 
             .content {
                 text-align: center;
+                margin-bottom: 20px;
             }
 
             .title {
-                font-size: 84px;
+                font-size: 55px;
             }
 
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
+                padding: 0 0px;
                 font-size: 12px;
-                font-weight: 600;
-                letter-spacing: .1rem;
+                font-weight: 400;
+                letter-spacing: 1rem;
                 text-decoration: none;
                 text-transform: uppercase;
+                text-align: center;
             }
 
             .m-b-md {
-                margin-bottom: 30px;
-            }
+                width: 95%;
+         }
+            .main-footer {
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -moz-transition: -moz-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  -o-transition: -o-transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, margin 0.3s ease-in-out;
+                margin-right: 40px;
+                margin-left: 40px;
+                  z-index: 600;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+}
         </style>
     </head>
     <body>
@@ -86,40 +96,34 @@
                         <a href="{{ url('/home') }}">Home</a>
                     @else
                         <a href="{{ url('/login') }}">Login</a>
-                        <a href="{{ url('/register') }}">Register</a>
+                        {{-- <a href="{{ url('/register') }}">Register</a> --}}
                     @endif
                 </div>
             @endif
 
             <div class="content">
-            <a href='home' ><img class="pull-right" src="{{ $logo }}" width="285"></a>
-                {{-- <h1>el-<strong>PID</strong>SUS<br> --}}
-                <h3>{{$title}} <br>        
-                <small>{{$subtitle}}</small></h3>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
-<!--===================================================-->
-            @section('content')
-
-            <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-4">
-                <img src="dist/img/UnderConstruct.png" width="600" alt="">
-                </div>
-                <div class="col-md-6">
+            <div class="content" align="center-block">
+                <div>
+            <img class="img-responsive" src="dist/img/openlaw-dark.png" >
+            </div>
+                <div class="links">
+                SISTEM ELEKTRONIK FIRMA HUKUM
+ {{--                    <a href="https://laravel.com/docs">Documentation</a>
+                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="https://laravel-news.com">News</a>
+                    <a href="https://forge.laravel.com">Forge</a>
+                    <a href="https://github.com/laravel/laravel">GitHub</a> --}}
                 </div>
             </div>
-
-                @stop
-
-<!--==================================================================-->
+                
             </div>
         </div>
-        <footer class="main-footer bg-danger">
-            <div class="pull-right text-danger">
-             <h5> <small><b>Version</b> 1.0.0</small> | <a href='admin/login'> ADMIN LOGIN</a></h5>
-          </div>
-          <h5>Legal IT© <small>Copyright © 2014-2016 <a href="http://soerojo.com" target="_blank">Tonny Soerojo &amp; Rekan</a>. All rights reserved.</small> </h5>
-      </footer>
-
-    </body>
+        <div class="main-footer">
+        <div class="m-b-md">
+        <div class="pull-right">
+      <small><b>Version</b> 1.0.0</small>
+    </div>
+    <small>Copyright © 2014-2016 <a href="http://soerojo.com" target="_blank">Tonny Soerojo &amp; Rekan</a>. All rights reserved.</small> </div>
+  </div>
+  </body>
 </html>

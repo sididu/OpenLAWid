@@ -5,9 +5,9 @@
     Tindakan <span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
-    <li><a href="#" class="text-right">Edit &nbsp;&nbsp;<i class="glyphicon glyphicon-pencil"></i></a></li>
+    <li><a href="erp2" class="text-right">Edit &nbsp;&nbsp;<i class="glyphicon glyphicon-pencil"></i></a></li>
     <li><a href="frp2" class="text-right">Sprint Lidik &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
-    <li><a href="frb1" class="text-right">Sprint Geledah &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
+    <li><a href="geledah" class="text-right">Sprint Geledah &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
     <li role="separator" class="divider"></li>
     <li><a href="frp3mum" class="text-right text-red"><strong>Dik-Mum &nbsp;&nbsp;<i class="glyphicon glyphicon-share-alt text-red"></i></strong></a> </li>
   </ul>
@@ -20,7 +20,7 @@
 <div class="panel-collapse collapse" role="tabpanel" id="collapse2b" aria-labelledby="headingOne" aria-expanded="false" style="height: 0px;">
 	<div class="panel-body">
 	<div class="col-lg-4 col-md-4 col-sm-12 text-justify">
-		<label>Kasus Posisi:</label>
+		<strong>Kasus Posisi:</strong>
 		inputLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

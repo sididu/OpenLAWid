@@ -5,8 +5,8 @@
     Tindakan <span class="caret"></span>
   </button>
   <ul class="dropdown-menu">
-    <li><a href="#" class="text-right">Edit &nbsp;&nbsp;<i class="glyphicon glyphicon-pencil"></i></a></li>
-    <li><a href="frb1" class="text-right">Sprint Geledah &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
+    <li><a href="erp3mum" class="text-right">Edit &nbsp;&nbsp;<i class="glyphicon glyphicon-pencil"></i></a></li>
+    <li><a href="geledah" class="text-right">Sprint Geledah &nbsp;&nbsp;<i class="glyphicon glyphicon-plus text-red"></i></a></li>
     <li role="separator" class="divider"></li>
     <li><a href="frp3sus" class="text-right text-red"><strong>Dik-Sus &nbsp;&nbsp;<i class="glyphicon glyphicon-share-alt text-red"></i></strong></a> </li>
   </ul>
@@ -25,7 +25,7 @@
 					<li class="active"><a href="#tab_3b1-1" data-toggle="tab" aria-expanded="true">Tab 1</a></li>
 					<li class=""><a href="#tab_3b2-2" data-toggle="tab" aria-expanded="false">Tab 2</a></li>
 					<li class=""><a href="#tab_3b3-2" data-toggle="tab" aria-expanded="false">Tab 3</a></li>
-					<li class="pull-left box">&nbsp;&nbsp;&nbsp;<i class="fa fa-balance-scale"></i> <label>Kasus Posisi:</label></li>
+					<li class="pull-left box">&nbsp;&nbsp;<i class="fa fa-balance-scale">&nbsp;&nbsp;</i> <strong>Kasus Posisi:</strong></li>
 				</ul>
 				<div class="tab-content">
 					<div class="tab-pane active" id="tab_3b1-1">

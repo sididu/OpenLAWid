@@ -1,21 +1,34 @@
-@extends('adminlte::page')
+@extends('layouts.penyidikan_template')
 
-  @section('title', 'Legal IT')
+@section('title', 'Legal IT')
 
-  @section('css')
+@section('stylesheet')
 
-  @endsection
+@endsection
 
-    @section('content_header')
-      <div>
-        <h3><a href='home' ><img class="push-left" src="dist/img/openlaw-dark.png" height="50"></a>
-          ADMIN DASHBOARD
-          <small> Law Office Software</small>
-        </h3></div>
-    @stop
+@section('maintitle', 'TAHAP PENYIDIKAN')
 
-@section('content')
+@section('mainsubtitle', 'Tindak Pidana Khusus')
 
-  'You're login as ADMIN
+@section('judulhalaman', 'Admin dashboard')
+
+@section('materi')
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-default">
+                <div class="panel-heading">ADMIN Dashboard</div>
+
+                <div class="panel-body">
+                    You are logged in as <strong>ADMIN</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@stop
+
+@section('script')
 
 @endsection
